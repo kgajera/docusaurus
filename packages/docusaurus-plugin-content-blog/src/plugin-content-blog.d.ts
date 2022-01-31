@@ -181,7 +181,7 @@ declare module '@theme/BlogPostPage' {
     readonly description?: string;
     readonly editUrl?: string;
     readonly readingTime?: number;
-    readonly truncated?: string;
+    readonly truncated?: string | boolean;
     readonly nextItem?: {readonly title: string; readonly permalink: string};
     readonly prevItem?: {readonly title: string; readonly permalink: string};
     readonly authors: Author[];
